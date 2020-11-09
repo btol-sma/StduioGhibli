@@ -1,3 +1,16 @@
+@font-face{
+   font-family: 'tajwal';
+   src: url(Fonts/Tajawal-Regular.ttf);
+}
+@font-face{
+   font-family: 'cairo-bold';
+   src: url(Fonts/Cairo-Bold.ttf);
+  
+}
+@font-face{
+   font-family: 'cairo-regular';
+   src: url(Fonts/Cairo-Regular.ttf);
+}
 body{
     margin: 0;
     
@@ -30,14 +43,16 @@ width: 100%;}
  border-color: rgb(0,0,0,0);
  border-radius: 30%;
   background-color: rgba(51, 70, 58, 0.699);
+  transition: 0.5s;
+  font-family: 'Cairo';
 }
 .ibox a:hover{
    background-color:#557571;
+   transition: 0.5s;
 }
 .p1 {
-   background-color: rgba(38, 54, 43, 0.493);
    height: 0.9cm;
-   width: 20cm                                       ;
+   width: 30cm                                       ;
    font-size: 40;
    padding-top: 1.5cm;
    padding-bottom: 1cm;
@@ -47,7 +62,9 @@ border-radius: 10%;
    position: absolute;
    top: 50%;
    left: 50%;
+   text-shadow: 2px 2px 4px #000000;
    transform: translate(-50%, -50%);
+   font-family: 'cairo-bold';
 
 }
 
@@ -61,8 +78,9 @@ text-align: center;
    height: 1.2cm;
    width: 100%;
    padding-top: 0.3cm;
-  
-   
+  font-family: 'tajwal';
+  transition: 3s;
+
  }
 
 
@@ -83,6 +101,7 @@ text-shadow:1px 1px rgb(0,0,0,0.5);
 }
 .mbar a:hover {
  text-decoration-line: underline;
+ transition: 3s;
  }
  .mbar img{
      height: 0.5cm;
