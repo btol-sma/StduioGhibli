@@ -11,6 +11,10 @@
    font-family: 'cairo-regular';
    src: url(Fonts/Cairo-Regular.ttf);
 }
+@font-face{
+font-family: 'cairo-simiBold';
+   src: url(Fonts/Cairo-SemiBold.ttf);
+}
 body{
     margin: 0;
     
