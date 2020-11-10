@@ -1,21 +1,49 @@
 <html>
     <head>
-        <title>Btol</title>
-        <link rel="stylesheet" href="btollabb.css">
+        <title>Ghibli Studio </title>
+        <link rel="stylesheet" href="CSSmainpage.css">
     </head>
   <body>
+
       <div class="ibox">
-          <img src="https://comicyears.com/wp-content/uploads/2019/10/studio-ghibli-movies-featured.png" >
+          <div class="mySlides fade">
+            <img src="https://comicyears.com/wp-content/uploads/2019/10/studio-ghibli-movies-featured.png" style="width:100%">
+            
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="https://github.com/btol-sma/StduioGhibli/blob/master/Photos/HomeBackground/2.jpg?raw=true" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="https://github.com/btol-sma/StduioGhibli/blob/master/Photos/HomeBackground/5.jpg?raw=true" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="https://i1.wp.com/culturedvultures.com/wp-content/uploads/2018/08/cat-returns.jpg?fit=1200%2C651&ssl=1" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="https://wallpaperaccess.com/full/132185.jpg" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="https://github.com/btol-sma/StduioGhibli/blob/master/Photos/HomeBackground/1.jpg?raw=true" style="width:100%">
+            
+          </div>
+          <div class="mySlides fade">
+            <img src="https://github.com/btol-sma/StduioGhibli/blob/master/Photos/HomeBackground/4.jpg?raw=true" style="width:100%">
+          </div>
+      <div class="mySlides fade">
+        <img src="https://github.com/btol-sma/StduioGhibli/blob/master/Photos/HomeBackground/6.jpg?raw=true" style="width:100%">
+      </div>
+
           <div class="click">
               <div class="p1"> عروض خُلدت في طفولتنا , فهل تعرف من وراءها ؟</div>
-             <a href="lab3.html" >  للمزيد </a> 
+             <a href="" >  للمزيد </a> 
              </div>
         </div>
+        
         <div class="mbar">
             <a href="">  الافلام  </a>
             <a href="">  نبذة</a>
-            <a href="">  <img src="iconG.jpg" alt="logo"></a>
-            
+            <a href="">  <img src="Photos/logo.png" alt="logo" ></a>
             <a href="">  المتحف  </a>
             <a href="">  الأوسكار  </a>
 
@@ -32,17 +60,30 @@
                 
               </div>
               <div class="footer">
-                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Studio_Ghibli_logo.svg/1200px-Studio_Ghibli_logo.svg.png">
+                <img src="Photos/stdioLogo.png">
                 <p>جميع حقوق الصور والرسومات محفوظة  لاستديو جيبلي2020©. ‭</p>
                           </div>
           </div>
-          
-          
-      
-      
          
-      
-
+          
+          <script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = 8;
+              for (i = 0; i< slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              slides[slideIndex-1].style.display = "block";  
+  
+              setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+            </script>
         
     </body>
 </html>
