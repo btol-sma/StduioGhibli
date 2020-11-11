@@ -52,7 +52,7 @@ body{
 }
 .p2{
    position: absolute;
-   top: 70%;
+   top: 65%;
    left: 50%;
    transform: translate(-50%, -50%);
    border-color: rgb(0,0,0,0);
@@ -74,11 +74,13 @@ body{
    transition: 0.5s;
 }
 .p1 {
-   background-color: rgba(38, 54, 43, 0.493);                                       ;
-   font-size: 40;
-   padding : 1.2cm;
+   background-color: rgba(38, 54, 43, 0.151);                                       ;
+   font-size: 28;
+   padding : 0.8cm;
+   width:18cm;
    color: white;
    text-align: center;
+   text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
 border-radius: 10%;
    position: absolute;
    top: 50%;
@@ -122,32 +124,33 @@ text-shadow:2px 2px  rgb(0,0,0,0.5);
  transition: 3s;
  }
  .mbar img{
-     height: 0.5cm;
-     width: 1.3cm;
+     height: 1cm;
+     width: 2cm;
      vertical-align: middle;
  }
  .boxmain{
      display: inline-block;
      position: absolute;
-     padding-top: 1cm;
      margin-top: 0%;
      width: 100%;
-     height: 8cm;
+     height: 9cm;
      background-color: #557571;
      color: #557571;
  }
   .boxsend{
-      font-size: 24;
+      font-size: 16;
       text-align: center;
      position: absolute;
-   top: 50%;
+   top: 40%;
    left: 50%;
    transform: translate(-50%, -50%);
      background-color:#F7D1BA;
-     border-radius: 30%;
+     border-radius: 30px;
      padding-top: 0.2cm;
-     width: 12cm;
-     height: 7cm ;
+     margin-top: 2cm;
+     margin-bottom: 0.2;
+     width: 10cm;
+     height: 5.5cm ;
      font-family: 'Cairo-regular';
  }
 
@@ -186,7 +189,7 @@ input[type=email]{
    width: 4cm;
 }
 .footer{
-   top: 90%;
+   top: 100%;
    left: 0%;
      position: absolute;
      top: 100%;
