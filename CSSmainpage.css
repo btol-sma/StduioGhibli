@@ -24,7 +24,6 @@ body{
 .ibox{
    position: relative;
    width: 100%;
-   height: 16cm;
    margin: auto;
  
 }
@@ -51,36 +50,36 @@ body{
   from {opacity: .8} 
   to {opacity: 2}
 }
-
-.ibox a{
+.p2{
    position: absolute;
    top: 70%;
    left: 50%;
    transform: translate(-50%, -50%);
+   border-color: rgb(0,0,0,0);
+   border-radius: 30%;
+    background-color: rgba(51, 70, 58, 0.699);
+    padding: 0.3cm;
+   margin-top: 0.5cm;
+   
+
+}
+.p2 a{
    color: white;
-   text-align: center;
-   padding: 0.1cm;
    text-decoration: none;
    font-size: 27;
-   height: 1.4cm;
-   width: 4cm;
- border-color: rgb(0,0,0,0);
- border-radius: 30%;
-  background-color: rgba(51, 70, 58, 0.699);
   font-family: 'Cairo';
 }
-.ibox a:hover{
+.ibox .p2:hover{
    background-color:#557571;
    transition: 0.5s;
 }
 .p1 {
-   background-color: rgba(38, 54, 43, 0.493);
-   height: 0.9cm;
-   width: 20cm                                       ;
+   background-color: rgba(38, 54, 43, 0.493);                                       ;
    font-size: 40;
    padding : 1.2cm;
    color: white;
    text-align: center;
+  
 border-radius: 10%;
    position: absolute;
    top: 50%;
@@ -132,6 +131,7 @@ text-shadow:2px 2px  rgb(0,0,0,0.5);
      display: inline-block;
      position: absolute;
      padding-top: 1cm;
+     margin-top: 0%;
      width: 100%;
      height: 8cm;
      background-color: #557571;
