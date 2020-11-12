@@ -1,19 +1,19 @@
 @font-face{
    font-family: 'tajwal';
-   src: url(Fonts/Tajawal-Regular.ttf);
+   src: url(../Fonts/Tajawal-Regular.ttf);
 }
 @font-face{
    font-family: 'cairo-bold';
-   src: url(Fonts/Cairo-Bold.ttf);
+   src: url(../Fonts/Cairo-Bold.ttf);
   
 }
 @font-face{
    font-family: 'cairo-regular';
-   src: url(Fonts/Cairo-Regular.ttf);
+   src: url(../Fonts/Cairo-Regular.ttf);
 }
 @font-face{
    font-family: 'cairo-simiBold';
-   src: url(Fonts/Cairo-SemiBold.ttf)
+   src: url(../Fonts/Cairo-SemiBold.ttf)
 }
 
 body{
