@@ -31,6 +31,18 @@
 
  }
 
+ .container{
+     padding: 0 100px;
+ }
+
+
+ body{
+     background-color: var(--thirdColor);
+     background-image: url(../Photos/back.jpg);
+     background-repeat: repeat;
+     
+ }
+
  .navBar{
      background-color: var(--boldColor); 
      height: 80px;  
@@ -39,8 +51,7 @@
 
  .navList{
     list-style-type: none;
-    padding-right: 350px;
-    padding-top: 15px;
+    padding: 15px 250px 0;
 }
 
 .navItem{
@@ -98,3 +109,77 @@ transition: 0.3s;
     padding: 200px;
     color: var(--baseColor);
  }
+
+
+  .footer-above{
+      background-color: var(--baseColor);
+        height: 450px;
+        text-align: center;
+
+    }
+    .outer-box
+    {
+        display: inline-block;
+        background-color:var(--thirdColor);
+        border-radius: 30px;
+        margin-top: 150px;
+        text-align: center;
+        width: 11cm;
+        height: 5.8cm ;
+        color: var(--baseColor);
+
+    }
+
+
+    .mail-title
+    {
+        margin-top: 1cm;
+        font-family: 'cairo-bold';
+        font-size: 20px;
+        
+
+    }
+
+   .mail-sub-title{
+    font-family: 'cairo-simiBold';
+    font-size: 15px;
+    margin-top: 0.1cm;
+    }
+  
+
+    .email-box{
+        width: 9cm;
+        height: 0.7cm;
+        margin-top: 0.2cm;
+        border: none;
+        border-radius: 30px;
+        text-align: center;
+        font-family: 'tajwal';
+    }
+.submit-box
+{
+    height: 1cm;
+    width: 2cm;
+    border-radius: 30px;
+    border: none;
+    margin-top: 0.2cm;
+    font-family: 'tajwal';
+    background-color: var(--baseColor);
+    color: var(--lightColor);
+    transition: 0.3s;
+
+}
+.submit-box:hover{
+    background-color: var(--lightColor);
+    color: var(--baseColor);
+    transition: 0.3s;
+}
+
+.footer-below{
+    background-color: var(--boldColor);
+    height: 150px;
+    padding-top: 30px;
+    text-align: center;
+    color: var(--lightColor);
+    font-family: 'tajwal';
+}
