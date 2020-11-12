@@ -18,6 +18,8 @@
 
  *{
     box-sizing:border-box;
+    margin: 0;
+    padding: 0;
  }
 
  html{
@@ -67,12 +69,32 @@
 }
 
 .mainSection{
-    background-color: var(--lightColor);
+     background-color: var(--lightColor);
+}
+
+.path{
+    padding: 20px 60px 0 0;
+    font-family: 'tajwal';
+    color: #B3BCBB;
+}
+
+.home{
+    text-decoration: none;
+    color: #B3BCBB;
+    transition: 0.3s;
+
+}
+
+.home:hover
+{
+color: var(--baseColor);
+transition: 0.3s;
 }
 
 .title{
     font-family: 'cairo-bold';
     font-size: 40px;
     text-align: center;
+    padding: 200px;
     color: var(--baseColor);
  }
