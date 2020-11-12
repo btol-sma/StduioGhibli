@@ -1,0 +1,79 @@
+@font-face{
+    font-family: 'tajwal';
+    src: url(../Fonts/Tajawal-Regular.ttf);
+ }
+ @font-face{
+    font-family: 'cairo-bold';
+    src: url(../Fonts/Cairo-Bold.ttf);
+   
+ }
+ @font-face{
+    font-family: 'cairo-regular';
+    src: url(../Fonts/Cairo-Regular.ttf);
+ }
+ @font-face{
+    font-family: 'cairo-simiBold';
+    src: url(../Fonts/Cairo-SemiBold.ttf)
+ }
+
+ *{
+    box-sizing:border-box;
+ }
+
+ html{
+     --baseColor:#557571;
+     --secondColor:#d49a89;
+     --thirdColor:#f7d1ba;
+     --lightColor: #f4f4f4;
+     --boldColor: #425452;
+
+ }
+
+ .navBar{
+     background-color: var(--boldColor); 
+     height: 80px;  
+
+ }
+
+ .navList{
+    list-style-type: none;
+    padding-right: 350px;
+    padding-top: 15px;
+}
+
+.navItem{
+    font-family: 'tajwal';
+    float: right;
+     font-size: 20px;
+     font-weight: bold;
+    height: 50px;
+    width:8rem;
+    line-height: 50px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+
+.navItem:hover{
+    background-color: var(--thirdColor);
+    transition: 0.3s;
+    
+}
+
+.navLink{
+    text-decoration: none;
+    display: block;
+    color:var(--lightColor)
+}
+
+.mainSection{
+    padding: 200px;
+    background-color: var(--lightColor);
+}
+
+.title{
+    font-family: 'cairo-bold';
+    font-size: 40px;
+    text-align: center;
+    color: var(--baseColor);
+ }
