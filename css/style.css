@@ -40,8 +40,8 @@
      background-color: var(--thirdColor);
      background-image: url(../Photos/back.jpg);
      background-repeat: repeat;
-     
- }
+    }
+
 
  .navBar{
      background-color: var(--boldColor); 
@@ -71,7 +71,10 @@
     border-bottom: solid var(--lightColor);
     border-width: 1px;
     transition: 0.3s;
-    
+}
+
+#logo:hover{
+    border-bottom:none;
 }
 
 .navLink{
@@ -107,14 +110,14 @@ transition: 0.3s;
     font-family: 'cairo-bold';
     font-size: 40px;
     text-align: center;
-    padding: 200px;
+    padding: 150px 200px 90px;
     color: var(--baseColor);
  }
 
 
   .footer-above{
       background-color: var(--baseColor);
-        height: 450px;
+        height: 9cm;
         text-align: center;
 
     }
@@ -123,10 +126,12 @@ transition: 0.3s;
         display: inline-block;
         background-color:var(--thirdColor);
         border-radius: 30px;
-        margin-top: 150px;
+        margin-top: 2cm;
+        padding-top: 0.2cm;
         text-align: center;
-        width: 11cm;
-        height: 5.8cm ;
+        width: 10cm;
+        height: 5.5cm ;
+        margin-bottom: 0.2cm;
         color: var(--baseColor);
 
     }
@@ -176,11 +181,22 @@ transition: 0.3s;
     transition: 0.3s;
 }
 
+
+
+
 .footer-below{
     background-color: var(--boldColor);
-    height: 150px;
-    padding-top: 30px;
+    height: 2.4cm;
     text-align: center;
     color: var(--lightColor);
     font-family: 'tajwal';
+    font-size: 12px;
+    padding-top: 0.3cm;
+}
+
+
+.footer-below img
+{
+    height: 1.2cm;
+    width: 4cm;
 }
