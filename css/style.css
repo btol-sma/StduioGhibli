@@ -45,7 +45,7 @@
 
  .navBar{
      background-color: var(--boldColor); 
-     height: 80px;  
+     height: 80px; 
 
  }
 
@@ -68,7 +68,8 @@
 
 
 .navItem:hover{
-    background-color: var(--thirdColor);
+    border-bottom: solid var(--lightColor);
+    border-width: 1px;
     transition: 0.3s;
     
 }
