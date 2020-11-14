@@ -108,7 +108,7 @@ transition: 0.3s;
 
 .title{
     font-family: 'cairo-bold';
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     padding: 150px 200px 90px;
     color: var(--baseColor);

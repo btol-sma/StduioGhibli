@@ -1,0 +1,128 @@
+@font-face{
+    font-family: 'tajwal';
+    src: url(../Fonts/Tajawal-Regular.ttf);
+ }
+ @font-face{
+    font-family: 'cairo-bold';
+    src: url(../Fonts/Cairo-Bold.ttf);
+   
+ }
+ @font-face{
+    font-family: 'cairo-regular';
+    src: url(../Fonts/Cairo-Regular.ttf);
+ }
+ @font-face{
+    font-family: 'cairo-simiBold';
+    src: url(../Fonts/Cairo-SemiBold.ttf)
+ }
+    .content1{
+        color: #557571;
+        text-align: center;
+        
+    }
+    
+    .c1{
+float: left;
+font-size: 20px;
+font-family: tajwal;
+width: 50%;
+padding: 50px;
+    }
+    .content1::after {
+  content: "";
+  clear: both;
+  display: block;
+    }
+  
+    #ctext{ margin-top: 1.5cm;
+        padding-bottom: 3cm;
+    border-block-color:#557571;
+border-bottom-style: groove;
+}
+    .c1 img{
+height: 8cm;
+width: 12cm;
+    }
+    .content2{
+        color: #557571;
+        text-align: center;
+        padding-bottom: 2cm;
+        border-block-color:#557571;
+border-bottom-style: groove;
+        
+    }
+    .c2{
+        float: right;
+        font-size: 20px;
+        font-family:cairo-simiBold;
+        width: 50%;
+        padding: 50px; 
+        margin-top:0px 
+    }
+
+    .content2::after {
+        content: "";
+        clear: both;
+        display: block;
+          }
+          #c22{ text-align: right;}
+          #c21{margin-top: 3.4cm;}
+
+          .content3{
+            color: #557571;
+            text-align: center;
+            margin-top: 1.5cm;
+        }
+        
+        .c3{
+    float: left;
+    font-size: 26px;
+    font-family: tajwal;
+    width: 50%;
+    padding: 50px;
+        }
+        .content3::after {
+      content: "";
+      clear: both;
+      display: block;
+        }
+      
+        #c32{ 
+            margin-top: 1cm;
+        padding-bottom: 3.6cm;
+        border-block-color:#557571;
+        border-bottom-style: groove;}
+        .c3 img{
+    height: 8cm;
+    width: 12cm;
+        }
+        .content4{
+            color: #557571;
+            text-align: center;
+            margin-top: 1cm;
+        }
+        
+        .c4{
+    float: left;
+    font-size: 20px;
+    font-family: cairo;
+    width: 50%;
+    padding: 50px;
+        }
+        .content4::after {
+      content: "";
+      clear: both;
+      display: block;
+        }
+      
+        #c41{ 
+            margin-top: 2.3cm;
+        padding-bottom: 4cm;
+        font-weight: bolder;
+        border-block-color:#557571;
+        border-bottom-style: groove;}
+        .c4 img{
+    height: 8cm;
+    width: 12cm;
+        }
+    
