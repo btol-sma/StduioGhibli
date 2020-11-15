@@ -251,11 +251,11 @@ margin-top: 1cm;
         background-color: rgba(255, 255, 255, 0.432);
       }
       
-      .next {
+      .prev {
         right: 0;
         border-radius: 3px 0 0 3px;
       }
-      .prev {
+      .next {
         left: 0;
         border-radius: 0 3px 3px 0;
       }
