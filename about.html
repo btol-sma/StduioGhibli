@@ -55,6 +55,8 @@
                         </p>
      
                      </div>
+                </div>
+            </div>
                     <div class="c2" id="c22">
                 <ul style="list-style-type:disc;" >
                     <li>عدنان ولينا</li>
@@ -68,7 +70,7 @@
                     </ul>
                     </div>
                 
-                </div>
+                
                 <div class="content3">
                     <div class="c3" id="c31"> 
                     <img src="Photos/about/2.gif" alt="فلم ناوسيكا" >
@@ -134,23 +136,72 @@
                 <div class="endcontent">
                     <div id="endtext">
                         يحظى هذا الاستديو بالكثير من إعجاب المتابعين وخاصة الرسامين والمصممين والمبدعين من الأشخاص ويمكن ملاحظة هذا الأمر من أعمال المعجبين المنتشرة بكثرة على الانترنت لكثير من شخصيات هذا الاستديو الملهمة للإبداع والتخيل
-                    </div>
-<div ><img src="Photos/about/8.jpg"></div>
-                </div>
+                   </div>
+                </div> 
 
                  
-            </div>
-            </div>
-        </div>
+           
+
 
 
         <!--هنا عناصر الصفحة-->
 
+        <div class="imageshow">
+
+            <div class="myimg fade">
+              <img src="Photos/about/8.jpg" style="width:100%">
+            </div>
+            
+            <div class="myimg fade">
+              <img src="Photos/about/9.jpg" style="width:100%">
+            </div>
+            
+            <div class="myimg fade">
+              <img src="Photos/about/10.jpg" style="width:100%">
+            </div>
+            
+            <div class="myimg fade">
+                <img src="Photos/about/11.jpg" style="width:100%">
+              </div>
+
+              <div class="myimg fade">
+                <img src="Photos/about/12.jpg" style="width:100%">
+              </div>
+
+              <div class="myimg fade">
+                <img src="Photos/about/13.png" style="width:100%">
+              </div>
+
+              <div class="myimg fade">
+                <img src="Photos/about/14.jpg" style="width:100%">
+              </div>
+
+              <div class="myimg fade">
+                <img src="Photos/about/15.png" style="width:100%">
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">&#10095;</a>
+  <a class="next" onclick="plusSlides(1)">&#10094;</a>
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+
+                <span class="dot" onclick="currentSlide(8)"></span>
+
+
+            </div>
 
 
 
-
-
+</div>
 
         </div>
 
@@ -175,7 +226,35 @@
               <a href="http://www.ghibli.jp/" target="_blank"> <img src="Photos/stdioLogo.png" alt="شعار استديو جيبلي الرسمي"></a> 
                 <p>جميع حقوق الصور والرسومات محفوظة  لاستديو جيبلي2020©. ‭</p>
            </div>  
-
+           <script>
+           var slideIndex = 1;
+           showSlides(slideIndex);
+           
+           function plusSlides(n) {
+             showSlides(slideIndex += n);
+           }
+           
+           // Thumbnail image controls
+           function currentSlide(n) {
+             showSlides(slideIndex = n);
+           }
+           
+           function showSlides(n) {
+             var i;
+             var slides = document.getElementsByClassName("myimg");
+             var dots = document.getElementsByClassName("dot");
+             if (n > slides.length) {slideIndex = 1}
+             if (n < 1) {slideIndex = slides.length}
+             for (i = 0; i < slides.length; i++) {
+                 slides[i].style.display = "none";
+             }
+             for (i = 0; i < dots.length; i++) {
+                 dots[i].className = dots[i].className.replace(" active", "");
+             }
+             slides[slideIndex-1].style.display = "block";
+             dots[slideIndex-1].className += " active";
+           }
+        </script>
     </body>
 
 </html>
