@@ -117,7 +117,7 @@ border-bottom-style: groove;
       
         #c41{ 
             margin-top: 2.3cm;
-        padding-bottom: 4cm;
+        padding-bottom: 3.2cm;
         font-weight: bolder;
         border-block-color:#557571;
         border-bottom-style: groove;}
@@ -125,4 +125,97 @@ border-bottom-style: groove;
     height: 8cm;
     width: 12cm;
         }
+        .content5{
+            font-size:18px ;
+            font-family: tajwal ;
+            color: #557571;
+            text-align: center;
+            margin-top: 1.2cm;
+            margin-bottom: 1.8cm;
+            padding-bottom: 2cm;
+        border-block-color:#557571;
+border-bottom-style: groove;
+        }
+        #c5{
+            font-size: 24px;
+            padding: 1cm;
+
+        }
+        .content5 img{
+            width: 70%;
+            height: 8cm;
+        }
+        .content6{
+            font-size:20px ;
+            font-family: tajwal ;
+            color: #557571;
+            text-align: center;
+            margin-top: 1.2cm;
+            margin-bottom: 1cm;
+
+
+        }
+        .content7{
+            font-size: 20px;
+font-family: cairo;
+color: #557571;
+ text-align: center;
+ padding-bottom: 1cm;
+ border-block-color:#557571;
+border-bottom-style: groove;
+        }
+        .c7{
+            float: left;
+font-weight: bold;
+width: 50%;
+padding: 50px;
+margin-top: 1cm;
+
+    }
+    .content7::after {
+  content: "";
+  clear: both;
+  display: block;
+    }
+    .c7 img{ width: 100%;}
+
+    .content8{
+        font-size:20px ;
+            font-family: tajwal ;
+            color: #557571;
+            text-align: center;
+            margin-bottom: 4.5cm;
+            
+    }
+    .content8 img{
+        width: 90%;
+        height: 7cm;
+    }
+    #c8{
+        margin-top: 3cm;
+        margin-bottom: 2cm;
+        padding-left:2cm;
+            padding-right: 2cm;
+    }
+    .endcontent{
+        font-size:23px ;
+        font-family: tajwal ;
+        color: #557571;
+        text-align: center;
+        margin-top: 5cm;
+        margin-bottom: 4cm;
+         
+    }
+    .endcontent img{ 
+        width: 80%;
+    height: 10cm;
+    border-radius: 24px;
+}
     
+    #endtext{
+        padding-left: 2.2cm;
+        padding-right: 2.2cm;
+        margin-bottom: 3cm;
+    }
+
+        
