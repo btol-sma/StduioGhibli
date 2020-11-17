@@ -1,0 +1,24 @@
+.aaa {
+ color: #557571;
+ text-align: center;
+ font-size: 25px;
+ font-family: 'tajwal';
+ src: url(../Fonts/Tajawal-Regular.ttf);
+}
+
+.aaa1 img{
+ height: 15cm;
+ width: 25cm;
+ margin-bottom: 3cm ;
+}
+
+.aaa3 a {
+ height: 2cm;
+ width: 4cm;
+ border-radius: 30px;
+ border: none;
+ padding: 10px 30px;
+ background-color: #557571;
+ color: #f4f4f4;
+ text-decoration: none;
+}
