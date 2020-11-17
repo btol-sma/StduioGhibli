@@ -1,14 +1,36 @@
 .ooo {
  color: #557571;
  text-align: center;
- font-size: 25px;
  font-family: 'tajwal';
+ font-size: 25px;
  src: url(../Fonts/Tajawal-Regular.ttf);
 }
 
-.ooo4 img{
+.ooo1 {
+  font-size: 23px;
+  font-family: cairo-regular;
+  color: #d49a89;
+}
+
+.ooo3 {
+  font-family: cairo-bold ;
+  font-size: 20px;
+  font-weight: bolder;
+
+}
+
+.ooo4 p{
+  float: right;
+  margin-right: 3cm;
+  margin-top: 6cm;
+}
+
+.ooo5 img{
  height: 15cm;
  width: 15cm;
+ float: left;
+ margin-left: 2cm;
+ margin-bottom: 10cm;
 }
 ul{
 list-style-type: none;
