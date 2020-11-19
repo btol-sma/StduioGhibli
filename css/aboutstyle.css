@@ -72,11 +72,11 @@ border-bottom-style: groove;
             color: #557571;
             text-align: center;
             margin-top: 1.5cm;
+            font-size: 16px;
         }
         
         .c3{
     float: left;
-    font-size: 26px;
     font-family: tajwal;
     width: 50%;
     padding: 50px;
@@ -88,6 +88,7 @@ border-bottom-style: groove;
         }
       
         #c32{ 
+          font-size: 26px;
             margin-top: 1cm;
         padding-bottom: 3.6cm;
         border-block-color:#557571;
@@ -104,7 +105,7 @@ border-bottom-style: groove;
         
         .c4{
     float: left;
-    font-size: 20px;
+    font-size: 16px;
     font-family: cairo;
     width: 50%;
     padding: 50px;
@@ -116,8 +117,10 @@ border-bottom-style: groove;
         }
       
         #c41{ 
+
             margin-top: 2.3cm;
         padding-bottom: 3.2cm;
+        font-size: 20;
         font-weight: bolder;
         border-block-color:#557571;
         border-bottom-style: groove;}
@@ -156,7 +159,6 @@ border-bottom-style: groove;
 
         }
         .content7{
-            font-size: 20px;
 font-family: cairo;
 color: #557571;
  text-align: center;
@@ -166,11 +168,15 @@ border-bottom-style: groove;
         }
         .c7{
             float: left;
-font-weight: bold;
-width: 50%;
+            font-size: 16px;
+            width: 50%;
 padding: 50px;
 margin-top: 1cm;
 
+    }
+    #c71{
+      font-size: 20px;
+      font-weight: bolder;
     }
     .content7::after {
   content: "";
@@ -180,7 +186,7 @@ margin-top: 1cm;
     .c7 img{ width: 100%;}
 
     .content8{
-        font-size:20px ;
+        font-size:14px ;
             font-family: tajwal ;
             color: #557571;
             text-align: center;
@@ -193,6 +199,7 @@ margin-top: 1cm;
     }
     #c8{
         margin-top: 3cm;
+        font-size: 20px;
         margin-bottom: 2cm;
         padding-left:2cm;
             padding-right: 2cm;

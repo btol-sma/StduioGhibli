@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
     <head>
+      <meta charset="UTF-8" />
         <title>Ghibli Studio </title>
         <link rel="stylesheet" href="css/CSSmainpage.css">
     </head>
@@ -47,8 +48,8 @@
             <a href="movies.html">  الأفلام  </a>
             <a href="about.html">  نبذة</a>
             <a href="home.html">  <img src="Photos/logo.png" alt="logo" ></a>
-            <a href="oscar.html">  المتحف  </a>
-            <a href="museum.html">  الأوسكار  </a>
+            <a href="museum.html">  المتحف  </a>
+            <a href="oscar.html">  الأوسكار  </a>
 
           </div>
 
@@ -58,10 +59,10 @@
                 <p class="mail-title"> كن من أصدقائنا</p>
                 <p class="mail-sub-title">واشترك الآن بالنشرة البريدية لنرسل لك كل جديد مجانًا</p>
             <div>
-                <form method="POST" action="">
-                  <input class="email-box" name="mail" type="email" placeholder="اكتب بريدك الإلكتروني هنا " >
+                <form method="POST" action="project.php" onsubmit="fun()">
+                  <input class="email-box" name="emaile" type="email" placeholder="اكتب بريدك الإلكتروني هنا " >
                   <br>
-                  <input class="submit-box" type="submit" value=" اشتراك" >
+                  <input class="submit-box" type="submit" name="sub" value=" اشتراك" >
               </form>
             </div>
         </div>
@@ -91,6 +92,11 @@
   
               setTimeout(showSlides, 5000); // Change image every 2 seconds
             }
+           function fun(){
+             window.alert("استلمنا بريدك الألكتروني , أصبحت صديقنا  ");
+            // window.open("");
+           }
+           
             </script>
         
     </body>
