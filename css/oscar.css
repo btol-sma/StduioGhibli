@@ -16,20 +16,33 @@
   font-family: cairo-bold ;
   font-size: 20px;
   font-weight: bolder;
+  margin-bottom: 3cm;
 
 }
+.box{
+  text-align: center;
+  margin-top: 1cm;
+ 
+  padding-bottom: 3cm;
+  
+ }
 
-.ooo4 p{
-  float: right;
-  margin-right: 3cm;
-  margin-top: 6cm;
-}
+ .box::after{
+   content: "";
+   clear: both;
+   display: block;
+ }
+ .ooo5 {
+   float: right;
+   text-align: center;
+   width: 50%;
+padding: 50px;
+ }
+
 
 .ooo5 img{
- height: 15cm;
- width: 15cm;
- float: left;
- margin-left: 2cm;
+ height: 10cm;
+ width: 12cm;
 }
 
 .ooo6 {
