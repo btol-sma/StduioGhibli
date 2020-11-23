@@ -45,35 +45,15 @@
         </div>
         
         <div class="mbar">
-            <a href="movies.html">  الأفلام  </a>
-            <a href="about.html">  نبذة</a>
-            <a href="home.html">  <img src="Photos/logo.png" alt="logo" ></a>
-            <a href="museum.html">  المتحف  </a>
-            <a href="oscar.html">  الأوسكار  </a>
+            <a href="movies.php">  الأفلام  </a>
+            <a href="about.php">  نبذة</a>
+            <a href="home.php">  <img src="Photos/logo.png" alt="logo" ></a>
+            <a href="museum.php">  المتحف  </a>
+            <a href="oscar.php">  الأوسكار  </a>
 
           </div>
 
-
-          <div class="footer-above">
-            <div class="outer-box">
-                <p class="mail-title"> كن من أصدقائنا</p>
-                <p class="mail-sub-title">واشترك الآن بالنشرة البريدية لنرسل لك كل جديد مجانًا</p>
-            <div>
-                <form method="POST" action="project.php" onsubmit="fun()">
-                  <input class="email-box" name="emaile" type="email" placeholder="اكتب بريدك الإلكتروني هنا " >
-                  <br>
-                  <input class="submit-box" type="submit" name="sub" value=" اشتراك" >
-              </form>
-            </div>
-        </div>
-    </div>
-
-        
-        <div class="footer-below">
-          <a href="http://www.ghibli.jp/" target="_blank"> <img src="Photos/stdioLogo.png" alt="شعار استديو جيبلي الرسمي"></a> 
-            <p>جميع حقوق الصور والرسومات محفوظة  لاستديو جيبلي2020©. ‭</p>
-       </div>
-         
+          <?php include 'footer.php' ?> 
           
           <script>
             var slideIndex = 0;
@@ -92,11 +72,7 @@
   
               setTimeout(showSlides, 5000); // Change image every 2 seconds
             }
-           function fun(){
-             window.alert("استلمنا بريدك الألكتروني , أصبحت صديقنا  ");
-            // window.open("");
-           }
-           
+          
             </script>
         
     </body>
