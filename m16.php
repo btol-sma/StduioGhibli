@@ -2,7 +2,7 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<title>أمواج المحيط</title>
+<title>جيراني من عائلة يامادا</title>
 <link rel="stylesheet" href="css/style.css">
 
 <style>
@@ -64,13 +64,13 @@
 </nav>
 <div class="mainSection">
 <h3 class="path"><a class="home" href="mainpage.html">الرئيسية</a>
-<a class="home" href="movies.html"> > الأفلام</a> >أمواج المحيط</h3>
-<h1 class="title">أمواج المحيطة </h1>
-<h1 class="sectitle">Ocean Waves</h1>
+<a class="home" href="movies.html"> > الأفلام</a> >جيراني من عائلة يامادا</h3>
+<h1 class="title">جيراني من عائلة يامادا <br>
+My neighbors the yamadas </h1>
 <div class=story>
 
 <div class=poster>
-<img src="photos\movies/f10.png" alt="أمواج المحيط">
+<img src="photos\movies/f16.png" alt="جيراني من عائلة يامادا">
 <p><br><br><br></p>
 </div>
 
@@ -79,47 +79,36 @@
 </div>
 <div class=st>
 <p><br><br><br></p>
-<p>كوتشي هي مدينتك الساحلية المتوسطة في جزيرة شيكوكو <br>
- الهادئة والشاعرة ، ومن المؤكد أن تاكو الصغير  <br>
-هو طالب متوسط ​​دراستك في المدرسة الثانوية. ولكن <br>
- سرعان ما تنقلب حياته الهادئة رأسًا على عقب مع  <br>
-وصول ريكاكو: طالب جميل انتقل مؤخرًا من طوكيو.  <br>
-بحلول نهاية الفصل الدراسي ، يكون تاكو قد تعلم درسًا قيمًا في الحب والصداقة.  <br>
+<p>ليس لهذا الفيلم قصة واحدة محددة, بل هو عبارة عن مجموعة <br>
+ قصص قصيرة ومواقف هزلية لا يتعدى أطوالها بضع دقائق, والقاسم المشترك <br>
+ بين جميع هذه القصص هو ان أبطالها هم أفراد عائلة يامادا الذين نراهم <br>
+ في أنفسنا وفي جيراننا وأقاربنا وفي كل مكان. وعن أسلوب <br>
+ الرسم الكاريكاتوري لهذا الفيلم, فقد اختار المخرج استخدام هذا النوع <br>
+من الرسوم لأنه الأكثر ملاءمة للأعمال الهزلية وجاء في  <br>
+تعليق للمخرج ايساو تاكاهاتا على بساطة رسوم هذا الفيلم <br>
+ وقلة التفاصيل في خلفياته: لماذا نتعب أنفسنا؟ كل مُشاهد  <br>
+يستطيع إتمام الصورة بخياله مادامت اللقطات تحيله إلى حياته اليومية.  <br>
 <br>
- التصنيف: دراما - رومانسي .   
+ التصنيف: شريحة من الحياة - كوميديا.
 <br>
-سنة الإنتاج: 1993. 
-مدة الفيلم: 72 د. 
-إخراج:  تومومي موتشيزوكي   
+سنة الإنتاج: 1999. 
+مدة الفيلم: 104 د. 
+إخراج: ايساو تاكاهاتا.   
   <br><br><br>
   <br><br><br><br><br><br>
   </p>
 
 </div>
+<div class="stitle">
+  <p>   لمشاهدة إعلان الفيلم : </p>
+  </div>
   <div class=youtube>
      <a href="https://www.youtube.com/watch?v=izyJ_NVyVaQ&feature=emb_title" target="_blank">
-        <img src="photos\youtube.png" alt="إعلان الفيلم">
+        <img src="photos\youtube.png" alt="إعلان الفيلم"></a>
 </div>
 </div>
 </div>
 </div>
- <div class="footer-above">
-      <div class="outer-box">
-      <p class="mail-title"> كن من أصدقائنا</p>
-      <p class="mail-sub-title">واشترك الآن بالنشرة البريدية لنرسل لك كل جديد مجانًا</p>
-<div>
-<form method="POST" action="">
-<input class="email-box" name="mail" type="email" placeholder="اكتب بريدك الإلكتروني هنا " >
-<br>
-<input class="submit-box" type="submit" value=" اشتراك" >
-</form>
-</div>
-</div>
-</div>
-
-<div class="footer-below">
-<a href="http://www.ghibli.jp/" target="_blank"> <img src="Photos/stdioLogo.png" alt="شعار استديو جيبلي الرسمي"></a>
-<p>جميع حقوق الصور والرسومات محفوظة  لاستديو جيبلي2020©. ‭</p>
-</div>
+  <?php include 'footer.php' ?>
 </body>
 </html>

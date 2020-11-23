@@ -65,8 +65,8 @@
 <div class="mainSection">
 <h3 class="path"><a class="home" href="mainpage.html">الرئيسية</a>
 <a class="home" href="movies.html"> > الأفلام</a> >حكايات من أراضي البحار</h3>
-<h1 class="title">حكايات من أراضي البحارة </h1>
-<h1 class="sectitle">Tales from earthsea </h1>
+<h1 class="title">حكايات من أراضي البحارة <br>
+Tales from earthsea </h1>
 <div class=story>
 
 <div class=poster>
@@ -99,30 +99,16 @@
   </p>
 
 </div>
+<div class="stitle">
+  <p>   لمشاهدة إعلان الفيلم : </p>
+  </div>
   <div class=youtube>
-     <a href="https://www.youtube.com/watch?v=Q6CEyfSg71A&feature=emb_title" target="_blank">
-        <img src="photos\youtube.png" alt="إعلان الفيلم">
+     <a href="https://www.youtube.com/watch?v=izyJ_NVyVaQ&feature=emb_title" target="_blank">
+        <img src="photos\youtube.png" alt="إعلان الفيلم"></a>
 </div>
 </div>
 </div>
 </div>
- <div class="footer-above">
-      <div class="outer-box">
-      <p class="mail-title"> كن من أصدقائنا</p>
-      <p class="mail-sub-title">واشترك الآن بالنشرة البريدية لنرسل لك كل جديد مجانًا</p>
-<div>
-<form method="POST" action="">
-<input class="email-box" name="mail" type="email" placeholder="اكتب بريدك الإلكتروني هنا " >
-<br>
-<input class="submit-box" type="submit" value=" اشتراك" >
-</form>
-</div>
-</div>
-</div>
-
-<div class="footer-below">
-<a href="http://www.ghibli.jp/" target="_blank"> <img src="Photos/stdioLogo.png" alt="شعار استديو جيبلي الرسمي"></a>
-<p>جميع حقوق الصور والرسومات محفوظة  لاستديو جيبلي2020©. ‭</p>
-</div>
+   <?php include 'footer.php' ?>
 </body>
 </html>

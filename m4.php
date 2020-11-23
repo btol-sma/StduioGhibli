@@ -65,8 +65,8 @@
 <div class="mainSection">
 <h3 class="path"><a class="home" href="mainpage.html">الرئيسية</a>
 <a class="home" href="movies.html"> > الأفلام</a> >بونيو على جرف البحر</h3>
-<h1 class="title">بونيو على جرف البحر</h1>
-<h1 class="sectitle">Ponyo</h1>
+<h1 class="title">بونيو على جرف البحر<br>
+Ponyo</h1>
 <div class=story>
 
 <div class=poster>
@@ -97,33 +97,17 @@
   <br><br><br>
   <br><br><br><br><br><br>
   </p>
-
 </div>
+<div class="stitle">
+  <p>   لمشاهدة إعلان الفيلم : </p>
+  </div>
   <div class=youtube>
      <a href="https://www.youtube.com/watch?v=Zc4obWGVgGs&feature=emb_title" target="_blank">
-        <img src="photos\youtube.png" alt="إعلان الفيلم">
+        <img src="photos\youtube.png" alt="إعلان الفيلم"></a>
 </div>
 </div>
 </div>
 </div>
- <div class="footer-above">
-      <div class="outer-box">
-      <p class="mail-title"> كن من أصدقائنا</p>
-      <p class="mail-sub-title">واشترك الآن بالنشرة البريدية لنرسل لك كل جديد مجانًا</p>
-<div>
-<form method="POST" action="">
-<input class="email-box" name="mail" type="email" placeholder="اكتب بريدك الإلكتروني هنا " >
-<br>
-<input class="submit-box" type="submit" value=" اشتراك" >
-</form>
-</div>
-</div>
-</div>
-
-<div class="footer-below">
-<a href="http://www.ghibli.jp/" target="_blank"> <img src="Photos/stdioLogo.png" alt="شعار استديو جيبلي الرسمي"></a>
-<p>جميع حقوق الصور والرسومات محفوظة  لاستديو جيبلي2020©. ‭</p>
-</div>
+   <?php include 'footer.php' ?> 
 </body>
 </html>
-h

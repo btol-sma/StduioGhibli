@@ -2,7 +2,7 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<title>قلعة هاول المتحركة</title>
+<title>عودة القط</title>
 <link rel="stylesheet" href="css/style.css">
 
 <style>
@@ -64,13 +64,13 @@
 </nav>
 <div class="mainSection">
 <h3 class="path"><a class="home" href="mainpage.html">الرئيسية</a>
-<a class="home" href="movies.html"> > الأفلام</a> >قلعة هاول المتحركة</h3>
-<h1 class="title">قلعة هاول المتحركة </h1>
-<h1 class="sectitle">Howl’s Moving Castle </h1>
+<a class="home" href="movies.html"> > الأفلام</a> >عودة القط</h3>
+<h1 class="title">عودة القط <br>
+The Cat Returns</h1>
 <div class=story>
 
 <div class=poster>
-<img src="photos\movies/f5.png" alt="قلعة هاول المتحركة">
+<img src="photos\movies/f9.png" alt="عودة القط">
 <p><br><br><br></p>
 </div>
 
@@ -79,46 +79,35 @@
 </div>
 <div class=st>
 <p><br><br><br></p>
-<p>صوفي ، فتاة مراهقة عادية تعمل في متجر قبعات  <br>
- ، يتعكر صفو حياتها بعد أن جرفها ساحر وسيم   <br>
-  غامض اسمه Howl. إذ تحولت إلى امرأة   <br>
-  تبلغ من العمر 90 عامًا. تشرع في مغامرة <br>
- رائعة لتعود كما كانت. <br>
+<p>  تنقذ Haru ، تلميذة المدرسة التي تشعر بالملل من روتينها المعتاد ،  <br>
+حياة قطة غير عادية ، وفجأة تحول عالمها إلى ما هو أبعد <br>
+ من أي شيء تخيلته. يكافأ عملها الصالح بمجموعة <br>
+ من الهدايا ، بما في ذلك الفئران المغلفة بالهدايا ، وعرض زواج صادم للغاية  <br>
+من ابن ملك القط!  <br>
+تنطلق Haru في رحلة غير متوقعة إلى مملكة القطط حيث <br>
+ تنفتح عيناها على عالم آخر بالكامل ومصيرها غير مؤكد.  <br>
+لتغيير مصيرها ، عليها أن تتعلم كيف تؤمن بنفسها ، <br>
+وخلال هذه العملية ستتعلم كيف تقدر حياتها اليومية.  <br>
 <br>
- التصنيف: مغامرات - دراما - فانتازيا - رومانسي.   
+ التصنيف: مغامرات - كوميديا - دراما فانتازيا.   
 <br>
-سنة الإنتاج: 2004. 
-مدة الفيلم : 114 د. 
-إخراج: هاياو ميازاكي. 
+سنة الإنتاج: 2002. 
+مدة الفيلم:  75 د. 
+إخراج: هيرويوكي موريتا.   
   <br><br><br>
   <br><br><br><br><br><br>
   </p>
-
 </div>
+<div class="stitle">
+  <p>   لمشاهدة إعلان الفيلم : </p>
+  </div>
   <div class=youtube>
-     <a href="https://www.youtube.com/watch?v=oCIeWol8jVk&feature=emb_title " target="_blank">
-        <img src="photos\youtube.png" alt="إعلان الفيلم">
+     <a href="https://www.youtube.com/watch?v=iIGcomM8lUQ&feature=emb_title" target="_blank">
+        <img src="photos\youtube.png" alt="إعلان الفيلم"></a>
 </div>
 </div>
 </div>
 </div>
- <div class="footer-above">
-      <div class="outer-box">
-      <p class="mail-title"> كن من أصدقائنا</p>
-      <p class="mail-sub-title">واشترك الآن بالنشرة البريدية لنرسل لك كل جديد مجانًا</p>
-<div>
-<form method="POST" action="">
-<input class="email-box" name="mail" type="email" placeholder="اكتب بريدك الإلكتروني هنا " >
-<br>
-<input class="submit-box" type="submit" value=" اشتراك" >
-</form>
-</div>
-</div>
-</div>
-
-<div class="footer-below">
-<a href="http://www.ghibli.jp/" target="_blank"> <img src="Photos/stdioLogo.png" alt="شعار استديو جيبلي الرسمي"></a>
-<p>جميع حقوق الصور والرسومات محفوظة  لاستديو جيبلي2020©. ‭</p>
-</div>
+  <?php include 'footer.php' ?> 
 </body>
 </html>

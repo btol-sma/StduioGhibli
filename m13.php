@@ -2,7 +2,7 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<title>كيكي لخدمة التوصيل</title>
+<title>بوركو روسو</title>
 <link rel="stylesheet" href="css/style.css">
 
 <style>
@@ -64,13 +64,13 @@
 </nav>
 <div class="mainSection">
 <h3 class="path"><a class="home" href="mainpage.html">الرئيسية</a>
-<a class="home" href="movies.html"> > الأفلام</a> >كيكي لخدمة التوصيل</h3>
-<h1 class="title">كيكي لخدمة التوصيل</h1>
-<h1 class="sectitle">Howl’s Moving Castle </h1>
+<a class="home" href="movies.html"> > الأفلام</a> >بوركو روسو</h3>
+<h1 class="title">بوركو روسو <br>
+Porco rosso</h1>
 <div class=story>
 
 <div class=poster>
-<img src="photos\movies/f17.png" alt="كيكي لخدمة التوصيل">
+<img src="photos\movies/f13.png" alt="بوركو روسو">
 <p><br><br><br></p>
 </div>
 
@@ -79,45 +79,37 @@
 </div>
 <div class=st>
 <p><br><br><br></p>
-<p>كتقليد متبع في عائلة الساحرات, ترتحل ابنة الساحرة حال <br>
- بلوغها سن الثالثة عشر للعمل التدريبي في مدينة أخرى. لذلك, <br>
- تغادر كيكي مع قطتها السوداء الثرثارة جيجي بلدتها الصغيرة <br>
- بعد توديع عائلتها بحثًا عن مدينةٍ لها لتبدأ فيها مغامراتها.  <br>
+<p>من البحر الادرياتيكي الى المناورات الجوية المبهرة,  <br>
+هذه المغامرة التي يظهر فيها البطل رجل برأس خنزير مليئة <br>
+ بالفكاهة والشجاعة والفروسية.  <br>
+بوركو روسو"porco rosso" (كان في السابق طيارًا في  <br>
+سلاح الجو الإيطالي يدعى ماركو). كان بوركو يحمي السفن <br>
+ السياحية من القراصنة الجوية, وفي يومٍ ما أثار بوركو غضب <br>
+أحد قراصنة السماء ببطولاته الجوية , استأجرت القراصنة  <br>
+شخص يدعى كورتيس وهو طيّار امريكي منافس للتخلص منه,  <br>
+يتنافس الطيّاران على محبة الانسة جينا الجميلة. ولكن في الهواء,  <br>
+حيث يتم شن معارك الطيارين الحقيقية. هل سيكون بطلنا منتصرًا؟  <br>
 <br>
- التصنيف: مغامرات - كوميديا - دراما - فانتازيا - رومانسي - شريحة من الحياة     
+ التصنيف: أكشن - مغامرات - كوميديا - دراما - رومانسي .    
 <br>
-سنة الإنتاج: 1989. 
-مدة الفيلم: 103 د. 
+سنة الإنتاج: 1992. 
+مدة الفيلم: 93د. 
 إخراج: هاياو ميازاكي. 
   <br><br><br>
   <br><br><br><br><br><br>
   </p>
 
 </div>
+<div class="stitle">
+  <p>   لمشاهدة إعلان الفيلم : </p>
+  </div>
   <div class=youtube>
-     <a href="https://www.youtube.com/watch?v=uM1fzCdPHSU&feature=emb_title" target="_blank">
-        <img src="photos\youtube.png" alt="إعلان الفيلم">
+     <a href="https://www.youtube.com/watch?v=izyJ_NVyVaQ&feature=emb_title" target="_blank">
+        <img src="photos\youtube.png" alt="إعلان الفيلم"></a>
 </div>
 </div>
 </div>
 </div>
- <div class="footer-above">
-      <div class="outer-box">
-      <p class="mail-title"> كن من أصدقائنا</p>
-      <p class="mail-sub-title">واشترك الآن بالنشرة البريدية لنرسل لك كل جديد مجانًا</p>
-<div>
-<form method="POST" action="">
-<input class="email-box" name="mail" type="email" placeholder="اكتب بريدك الإلكتروني هنا " >
-<br>
-<input class="submit-box" type="submit" value=" اشتراك" >
-</form>
-</div>
-</div>
-</div>
-
-<div class="footer-below">
-<a href="http://www.ghibli.jp/" target="_blank"> <img src="Photos/stdioLogo.png" alt="شعار استديو جيبلي الرسمي"></a>
-<p>جميع حقوق الصور والرسومات محفوظة  لاستديو جيبلي2020©. ‭</p>
-</div>
+  <?php include 'footer.php' ?>
 </body>
 </html>

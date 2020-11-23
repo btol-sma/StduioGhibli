@@ -2,7 +2,7 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<title>المخطوفة </title>
+<title>كيكي لخدمة التوصيل</title>
 <link rel="stylesheet" href="css/style.css">
 
 <style>
@@ -64,13 +64,13 @@
 </nav>
 <div class="mainSection">
 <h3 class="path"><a class="home" href="mainpage.html">الرئيسية</a>
-<a class="home" href="movies.html"> > الأفلام</a> >المخطوفة</h3>
-<h1 class="title"> المخطوفة</h1>
-<h1 class="sectitle">Spirited Away </h1>
+<a class="home" href="movies.html"> > الأفلام</a> >كيكي لخدمة التوصيل</h3>
+<h1 class="title">كيكي لخدمة التوصيل<br>
+Kiki's Delivery Service </h1>
 <div class=story>
 
 <div class=poster>
-<img src="photos\movies/f1.png" alt="المخطوفة">
+<img src="photos\movies/f17.png" alt="كيكي لخدمة التوصيل">
 <p><br><br><br></p>
 </div>
 
@@ -79,46 +79,31 @@
 </div>
 <div class=st>
 <p><br><br><br></p>
-<p>هي قصة خيالية مدهشة تدور حول فتاة صغيرة تُدعى Chihiro    <br>
- تكتشف عالمًا سريًا من الأرواح الغريبة والمخلوقات <br>
- والشعوذة، إذ يتحول والداها بشكل غامض إلى هيئة    <br>
- غامضة، فأصبحت مضطرة إلى تحرير نفسها<br>
-وإعادة عائلتها إلى العالم الخارجي.<br>
+<p>كتقليد متبع في عائلة الساحرات, ترتحل ابنة الساحرة حال <br>
+ بلوغها سن الثالثة عشر للعمل التدريبي في مدينة أخرى. لذلك, <br>
+ تغادر كيكي مع قطتها السوداء الثرثارة جيجي بلدتها الصغيرة <br>
+ بعد توديع عائلتها بحثًا عن مدينةٍ لها لتبدأ فيها مغامراتها.  <br>
 <br>
- التصنيف: مغامرات - درما - فانتازيا - رومانسي - خارق للطبيعة . 
+ التصنيف: مغامرات - كوميديا - دراما - فانتازيا - رومانسي - شريحة من الحياة     
 <br>
-سنة الإنتاج: 2001. 
-مدة الفيلم: 125 د. 
-  إخراج: هاياو ميازاك
+سنة الإنتاج: 1989. 
+مدة الفيلم: 103 د. 
+إخراج: هاياو ميازاكي. 
   <br><br><br>
   <br><br><br><br><br><br>
   </p>
 
 </div>
+<div class="stitle">
+  <p>   لمشاهدة إعلان الفيلم : </p>
+  </div>
   <div class=youtube>
-     <a href="https://www.youtube.com/watch?v=k6HzOTKfkxQ&feature=emb_title" target="_blank">
-        <img src="photos\youtube.png" alt="إعلان الفيلم">
+     <a href="https://www.youtube.com/watch?v=izyJ_NVyVaQ&feature=emb_title" target="_blank">
+        <img src="photos\youtube.png" alt="إعلان الفيلم"></a>
 </div>
 </div>
 </div>
 </div>
- <div class="footer-above">
-      <div class="outer-box">
-      <p class="mail-title"> كن من أصدقائنا</p>
-      <p class="mail-sub-title">واشترك الآن بالنشرة البريدية لنرسل لك كل جديد مجانًا</p>
-<div>
-<form method="POST" action="">
-<input class="email-box" name="mail" type="email" placeholder="اكتب بريدك الإلكتروني هنا " >
-<br>
-<input class="submit-box" type="submit" value=" اشتراك" >
-</form>
-</div>
-</div>
-</div>
-
-<div class="footer-below">
-<a href="http://www.ghibli.jp/" target="_blank"> <img src="Photos/stdioLogo.png" alt="شعار استديو جيبلي الرسمي"></a>
-<p>جميع حقوق الصور والرسومات محفوظة  لاستديو جيبلي2020©. ‭</p>
-</div>
+  <?php include 'footer.php' ?>
 </body>
 </html>
