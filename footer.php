@@ -1,3 +1,4 @@
+
 <div class="footer-above">
             <div class="outer-box">
                 <p class="mail-title"> كن من أصدقائنا</p>
@@ -8,9 +9,7 @@
                   <br>
                   <input class="submit-box" type="submit" value="اشتراك" name="sub" >
               </form>
-            </div>
-
-            <?php
+              <?php
        $conn = mysqli_connect("localhost","root","","emailusers");
 
            if(isset($_POST['sub']))
@@ -19,20 +18,23 @@
                      $sql = "INSERT INTO useremail(email) VALUES ('$m')";
                      mysqli_query($conn,$sql);
                      header("Location: home.php");
-                       die();
                         }
 
 ?>
+            </div>
         </div>
+    
     </div>
-        
         <div class="footer-below">
           <a href="http://www.ghibli.jp/" target="_blank"> <img src="Photos/stdioLogo.png" alt="شعار استديو جيبلي الرسمي"></a> 
             <p>جميع حقوق الصور والرسومات محفوظة  لاستديو جيبلي2020©. ‭</p>
        </div>
+
+
        <script>
           function fun(){
              window.alert("استلمنا بريدك الألكتروني , أصبحت صديقنا  ");
-            // window.open("");
            }
+
           </script>
+
