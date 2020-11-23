@@ -11,6 +11,10 @@
                                            <!-- هنا تبدأ الصفحة -->
 
     <body>
+
+      <?php include 'goup.php';?>
+
+
         <div class="container">
 
 
@@ -65,37 +69,11 @@
                 </div>
 
             </div>
-
-
-
-
-
-        <!--هنا عناصر الصفحة-->
-
-
-
-
-
-
-
         </div>
 
 
+        <?php include 'footer.php' ?>
 
-
-        <div class="footer-above">
-                <div class="outer-box">
-                    <p class="mail-title"> كن من أصدقائنا</p>
-                    <p class="mail-sub-title">واشترك الآن بالنشرة البريدية لنرسل لك كل جديد مجانًا</p>
-                <div>
-                    <form method="POST" action="">
-                      <input class="email-box" name="mail" type="email" placeholder="اكتب بريدك الإلكتروني هنا " >
-                      <br>
-                      <input class="submit-box" type="submit" value=" اشتراك" >
-                  </form>
-                </div>
-            </div>
-        </div>
 
             <div class="footer-below">
               <a href="http://www.ghibli.jp/" target="_blank"> <img src="Photos/stdioLogo.png" alt="شعار استديو جيبلي الرسمي"></a>
