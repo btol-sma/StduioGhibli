@@ -75,11 +75,6 @@
         <?php include 'footer.php' ?>
 
 
-            <div class="footer-below">
-              <a href="http://www.ghibli.jp/" target="_blank"> <img src="Photos/stdioLogo.png" alt="شعار استديو جيبلي الرسمي"></a>
-                <p>جميع حقوق الصور والرسومات محفوظة  لاستديو جيبلي2020©. ‭</p>
-           </div>
-
     </body>
 
 </html>
