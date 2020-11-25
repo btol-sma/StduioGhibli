@@ -18,7 +18,7 @@
                      $m= $_POST['mail'];
                      $sql = "INSERT INTO useremail(email) VALUES ('$m')";
                      mysqli_query($conn,$sql);
-                     header("Location:home.php");
+                     header("Location: home.php");
                        die();
                         }
 

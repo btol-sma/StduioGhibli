@@ -50,11 +50,8 @@ background-color: var(--lightColor);
 
     <body>
 
-        <?php
+    <?php include 'goup.php'; ?> 
 
-            include 'goup.php';
-
-        ?>
         <div class="container">
             <nav class="navBar">
                 <ul class ="navList">
