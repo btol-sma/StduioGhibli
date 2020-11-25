@@ -11,6 +11,7 @@
             </div>
 
             <?php
+                include 'goup.php';        
        $conn = mysqli_connect("localhost","root","","emailusers");
 
            if(isset($_POST['sub']))

@@ -9,6 +9,8 @@
 
         <link rel="stylesheet" href="css/style.css">
         <style>
+
+
  .cards
  {
 text-align: center;  
@@ -48,6 +50,8 @@ background-color: var(--lightColor);
 
     <body>
 
+    <?php include 'goup.php'; ?> 
+
         <div class="container">
             <nav class="navBar">
                 <ul class ="navList">
@@ -69,6 +73,7 @@ background-color: var(--lightColor);
                 <h3 class="path"><a class="home" href="home.html">الرئيسية</a>/الأفلام </h3>
                 <h1 class="title">أفلام جيبلي</h1>
             </div>
+
 
             <div class="cards">
                     <div class="card">
@@ -211,33 +216,13 @@ background-color: var(--lightColor);
 
                 
             </div>
-        </div>
-        <div class="footer-above">
-                <div class="outer-box">
-                    <p class="mail-title"> كن من أصدقائنا</p>
-                    <p class="mail-sub-title">واشترك الآن بالنشرة البريدية لنرسل لك كل جديد مجانًا</p>
-                <div>
-                    <form method="POST" action="">
-                      <input class="email-box" name="mail" type="email" placeholder="اكتب بريدك الإلكتروني هنا " >
-                      <br>
-                      <input class="submit-box" type="submit" value=" اشتراك" >
-                  </form>
-                </div>
-            </div>
+
+       
         </div>
 
-            
-            <div class="footer-below">
-              <a href="http://www.ghibli.jp/" target="_blank"> <img src="Photos/stdioLogo.png" alt="شعار استديو جيبلي الرسمي"></a> 
-                <p>جميع حقوق الصور والرسومات محفوظة  لاستديو جيبلي2020©. ‭</p>
-           </div>
-                
 
 
-
-
-        
-
+        <?php include 'footer.php' ?> 
 
     </body>
 

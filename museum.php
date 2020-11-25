@@ -11,6 +11,10 @@
                                            <!-- هنا تبدأ الصفحة -->
 
     <body>
+
+      <?php include 'goup.php';?>
+
+
         <div class="container">
 
 
@@ -33,7 +37,7 @@
 
             <div class="mainSection">
                 <h3 class="path"><a class="home" href="home.html">الرئيسية</a> > المتحف</h3>
-                <h1 class="title">متحف استوديو غيبلي </h1>
+                <h1 class="title">متحف استديو جيبلي </h1>
 
 
                 <div class="aaa">
@@ -47,7 +51,7 @@
                     <p>
                     قرر هاياو ميازاكي إنشاء متحف يضم جميع شخصيات أفلامه, وكل الكائنات الفانتازية. <br>
                      وبالفعل  أنشأ ميازاكي المتحف مابين عام 1998 إلى عام 2001 تم إفتتاحه في طوكيو, يُعرض فيه <br>
-                      أعمال الانمي التي أنتجها الاستوديو إضافةً إلى ذلك عرض الأفلام القصيرة التي لاتتوفر في مكان آخر.
+                      أعمال الانمي التي أنتجها الاستديو إضافةً إلى ذلك عرض الأفلام القصيرة التي لاتتوفر في مكان آخر.
                     </p>
                   </div>
 
@@ -65,42 +69,11 @@
                 </div>
 
             </div>
-
-
-
-
-
-        <!--هنا عناصر الصفحة-->
-
-
-
-
-
-
-
         </div>
 
 
+        <?php include 'footer.php' ?>
 
-
-        <div class="footer-above">
-                <div class="outer-box">
-                    <p class="mail-title"> كن من أصدقائنا</p>
-                    <p class="mail-sub-title">واشترك الآن بالنشرة البريدية لنرسل لك كل جديد مجانًا</p>
-                <div>
-                    <form method="POST" action="">
-                      <input class="email-box" name="mail" type="email" placeholder="اكتب بريدك الإلكتروني هنا " >
-                      <br>
-                      <input class="submit-box" type="submit" value=" اشتراك" >
-                  </form>
-                </div>
-            </div>
-        </div>
-
-            <div class="footer-below">
-              <a href="http://www.ghibli.jp/" target="_blank"> <img src="Photos/stdioLogo.png" alt="شعار استديو جيبلي الرسمي"></a>
-                <p>جميع حقوق الصور والرسومات محفوظة  لاستديو جيبلي2020©. ‭</p>
-           </div>
 
     </body>
 
