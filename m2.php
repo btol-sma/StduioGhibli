@@ -55,7 +55,7 @@
 <li class="navItem">
 <a class="navLink" href="oscar.php">الأوسكار</a></li>
 <li class="navItem">
-<a href="home.html"> <img src="Photos/logo.png" alt="websiteLogo" width="90" height="50"> </a></li>
+<a href="home.php"> <img src="Photos/logo.png" alt="websiteLogo" width="90" height="50"> </a></li>
 <li class="navItem">
 <a class="navLink" href="museum.php">المتحف</a></li>
 <li class="navItem">
