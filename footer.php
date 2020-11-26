@@ -20,11 +20,12 @@
                      $sql = "INSERT INTO useremail(email) VALUES ('$m')";
                      mysqli_query($conn,$sql);
                      header("Location: home.php");
-                     $id = "SELECT  id FROM useremail WHERE email = $m ";
-
+                     $query = "SELECT  id FROM useremail WHERE email = '$m' ";
+                     foreach($conn->query($query) as $i) {
+                      $id = $i['id'];
                        die();
-                        }
-
+                    }}
+                   
 ?>
         </div>
     </div>
@@ -34,9 +35,8 @@
             <p>جميع حقوق الصور والرسومات محفوظة  لاستديو جيبلي2020©. ‭</p>
        </div>
        <script>
+       var id =<?php echo $id ; ?>;
           function fun(){
-            var id = <?php echo '$id';?>
-            window.alert(" صديق "+'$id'+"  استلمنا بريدك الألكتروني , أصبحت صديقنا ضمن ");
-            // window.open("");
+            window.alert( id +"  استلمنا بريدك الألكتروني , أصبحت صديقنا ضمن ");
            }
           </script>

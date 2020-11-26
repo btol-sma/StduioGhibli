@@ -50,6 +50,7 @@
  }
 
  .navList{
+     position: relative;
      text-align: center;
     list-style-type: none;
     padding: 15px 250px 0;
@@ -61,8 +62,8 @@
      font-size: 20px;
      font-weight: bold;
     height: 50px;
-    width:7rem;
-    line-height: 40px;
+    width:8rem;
+    line-height: 50px;
     text-align: center;
     transition: 0.3s;
 }
