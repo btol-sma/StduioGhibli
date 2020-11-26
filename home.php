@@ -39,7 +39,7 @@
           
               <div class="p1"> عروض خُلدت في طفولتنا , فهل تعرف من وراءها ؟</div>
               <div class= "p2">
-             <a href="about.php" style="text-align: center;"> !اعرف اكثر </a> 
+             <a href="about.php" style="text-align: center;"> اعرف اكثر ! </a> 
               </div>
              
         </div>
