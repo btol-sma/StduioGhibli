@@ -20,6 +20,8 @@
                      $sql = "INSERT INTO useremail(email) VALUES ('$m')";
                      mysqli_query($conn,$sql);
                      header("Location: home.php");
+                     $id = "SELECT  id FROM useremail WHERE email = $m ";
+
                        die();
                         }
 
@@ -33,7 +35,8 @@
        </div>
        <script>
           function fun(){
-             window.alert("استلمنا بريدك الألكتروني , أصبحت صديقنا  ");
+            var id = <?php echo '$id';?>
+            window.alert(" صديق "+'$id'+"  استلمنا بريدك الألكتروني , أصبحت صديقنا ضمن ");
             // window.open("");
            }
           </script>
