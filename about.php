@@ -202,8 +202,6 @@
 
         </div>
 
-
-  <?php include 'footer.php'?>  
            <script>
            var slideIndex = 1;
            showSlides(slideIndex);
@@ -234,7 +232,7 @@
            }
         </script>
 
-
+<?php include 'footer.php' ?> 
 </body>
 
 </html>

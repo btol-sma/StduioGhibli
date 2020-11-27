@@ -13,32 +13,30 @@
 
     <body>
 
-        <?php include 'goup.php';?>
-
-
+     
         <div class="container">
 
 
             <nav class="navBar">
                 <ul class ="navList">
                     <li class="navItem">
-                        <a class="navLink" href="movies.html">الأفلام</a></li>
+                        <a class="navLink" href="movies.php">الأفلام</a></li>
                         <li class="navItem">
-                            <a class="navLink" href="">الأوسكار</a></li>
+                            <a class="navLink" href="oscar.php">الأوسكار</a></li>
                     <li class="navItem">
-                            <a href="home.html"> <img src="Photos/logo.png" alt="websiteLogo" width="90" height="50"> </a></li>
+                            <a href="home.php"> <img src="Photos/logo.png" alt="websiteLogo" width="90" height="50"> </a></li>
                         <li class="navItem">
-                            <a class="navLink" href="museum.html">المتحف</a></li>
+                            <a class="navLink" href="museum.php">المتحف</a></li>
                             <li class="navItem">
-                                <a class="navLink" href="about.html">نبذة</a></li>
+                                <a class="navLink" href="about.php">نبذة</a></li>
                 </ul>
             </nav>
 
 
 
             <div class="mainSection">
-                <h3 class="path"><a class="home" href="home.html">الرئيسية</a> > الأوسكار</h3>
-                <h1 class="title">الأوسكار</h1>
+                <h3 class="path"><a class="home" href="home.php">الرئيسية</a> > الأوسكار</h3>
+                <h1 class="title">جائزة الأوسكار</h1>
 
                 <div class="ooo">
                   <div class="ooo1">

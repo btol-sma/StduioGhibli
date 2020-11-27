@@ -2,7 +2,15 @@
             <div class="outer-box">
                 <p class="mail-title"> كن من أصدقائنا</p>
                 <p class="mail-sub-title">
-                اشترك الآن بالنشرة البريدية مجانًا 
+                اشترك الآن بالنشرة البريدية مجانًا لتصبح ضمن 
+<?php 
+       $conn = mysqli_connect("localhost","root","","emailusers");
+       $query = mysqli_query($conn,"SELECT  MAX(id) FROM useremail  ");
+$data = mysqli_fetch_array($query);
+echo $data[0];
+        
+?>
+              صديق 
                 </p>
             <div>
                 <form method="POST" action="" >
@@ -24,7 +32,7 @@
                      $m= $_POST['mail'];
                      $sql = "INSERT INTO useremail(email) VALUES ('$m')";
                      mysqli_query($conn,$sql);                   
-
+header('Location:home.php');
                        die();
                     }
                    
