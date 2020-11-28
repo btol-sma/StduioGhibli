@@ -42,7 +42,6 @@
         .youtube img{
           height: 1.6cm;
           width: 2cm;
-          float:center;
         }
 </style>
 </head>
@@ -70,7 +69,7 @@ Tales from earthsea </h1>
 <div class=story>
 
 <div class=poster>
-<img src="photos\movies/f11.png" alt="حكايات من أراضي البحار">
+<img src="photos/movies/f11.png" alt="حكايات من أراضي البحار">
 <p><br><br><br></p>
 </div>
 
@@ -104,7 +103,7 @@ Tales from earthsea </h1>
   </div>
   <div class=youtube>
      <a href="https://www.youtube.com/watch?v=8hxYx3Jq3kI" target="_blank">
-        <img src="photos\youtube.png" alt="إعلان الفيلم"></a>
+        <img src="photos/youtube.png" alt="إعلان الفيلم"></a>
 </div>
 </div>
 </div>
