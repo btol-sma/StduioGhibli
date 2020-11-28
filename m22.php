@@ -42,7 +42,6 @@
         .youtube img{
           height: 1.6cm;
           width: 2cm;
-          float:center;
         }
 </style>
 </head>
@@ -70,7 +69,7 @@ Grave of the fireflies  </h1>
 <div class=story>
 
 <div class=poster>
-<img src="photos\movies/3.jpg" alt="قبر اليراعات ">
+<img src="photos/movies/3.jpg" alt="قبر اليراعات ">
 <p><br><br><br></p>
 </div>
 
@@ -114,7 +113,7 @@ Grave of the fireflies  </h1>
   </div>
   <div class=youtube>
      <a href="https://www.youtube.com/watch?v=4vPeTSRd580" target="_blank">
-        <img src="photos\youtube.png" alt="إعلان الفيلم"></a>
+        <img src="photos/youtube.png" alt="إعلان الفيلم"></a>
 </div>
 </div>
 </div>
