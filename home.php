@@ -53,7 +53,7 @@
 
           </div>
 
-          <?php include 'footerhome.php' ?> 
+          <?php include 'footer.php' ?> 
           
           <script>
             var slideIndex = 0;
