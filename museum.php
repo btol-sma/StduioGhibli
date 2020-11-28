@@ -33,7 +33,7 @@
 
 
             <div class="mainSection">
-                <h3 class="path"><a class="home" href="home.php">الرئيسية</a> > المتحف</h3>
+                <h3 class="path"><a class="home" href="home.php">الرئيسية</a> / المتحف</h3>
                 <h1 class="title">متحف استديو جيبلي </h1>
 
 
