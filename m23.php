@@ -42,7 +42,6 @@
         .youtube img{
           height: 1.6cm;
           width: 2cm;
-          float:center;
         }
 </style>
 </head>
@@ -70,7 +69,7 @@ The kingdom of dreams and madness  </h1>
 <div class=story>
 
 <div class=poster>
-<img src="photos\movies/4.jpg" alt="مملكة الأحلام والجنون ">
+<img src="photos/movies/4.jpg" alt="مملكة الأحلام والجنون ">
 <p><br><br><br></p>
 </div>
 
@@ -104,7 +103,7 @@ The kingdom of dreams and madness  </h1>
   </div>
   <div class=youtube>
      <a href="https://www.youtube.com/watch?v=Mx8LuiJ30os" target="_blank">
-        <img src="photos\youtube.png" alt="إعلان الفيلم"></a>
+        <img src="photos/youtube.png" alt="إعلان الفيلم"></a>
 </div>
 </div>
 </div>
