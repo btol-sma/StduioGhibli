@@ -32,8 +32,6 @@ echo $data[0];
                      $m= $_POST['mail'];
                      $sql = "INSERT INTO useremail(email) VALUES ('$m')";
                      mysqli_query($conn,$sql);                   
-header('Location:home.php');
-                       die();
                     }
                    
 ?>
