@@ -42,7 +42,6 @@
         .youtube img{
           height: 1.6cm;
           width: 2cm;
-          float:center;
         }
 </style>
 </head>
@@ -70,7 +69,7 @@ The tale of princess kaguya </h1>
 <div class=story>
 
 <div class=poster>
-<img src="photos\movies/f15.png" alt="حكاية الأميرة كاغويا ">
+<img src="photos/movies/f15.png" alt="حكاية الأميرة كاغويا ">
 <p><br><br><br></p>
 </div>
 
@@ -101,7 +100,7 @@ The tale of princess kaguya </h1>
   </div>
   <div class=youtube>
      <a href="https://www.youtube.com/watch?v=W71mtorCZDw" target="_blank">
-        <img src="photos\youtube.png" alt="إعلان الفيلم"></a>
+        <img src="photos/youtube.png" alt="إعلان الفيلم"></a>
 </div>
 </div>
 </div>
