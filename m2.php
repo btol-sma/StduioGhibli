@@ -42,7 +42,6 @@
         .youtube img{
           height: 1.6cm;
           width: 2cm;
-          float:center;
         }
 </style>
 </head>
@@ -70,7 +69,7 @@ Spirited Away </h1>
 <div class=story>
 
 <div class=poster>
-<img src="photos\movies/f1.png" alt="المخطوفة">
+<img src="photos/movies/f1.png" alt="المخطوفة">
 <p><br><br><br></p>
 </div>
 
@@ -100,7 +99,7 @@ Spirited Away </h1>
   </div>
   <div class=youtube>
      <a href="https://www.youtube.com/watch?v=k6HzOTKfkxQ&feature=emb_title" target="_blank">
-        <img src="photos\youtube.png" alt="إعلان الفيلم">
+        <img src="photos/youtube.png" alt="إعلان الفيلم">
         </a>
 </div>
 </div>
