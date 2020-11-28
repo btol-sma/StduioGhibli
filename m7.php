@@ -42,7 +42,6 @@
         .youtube img{
           height: 1.6cm;
           width: 2cm;
-          float:center;
         }
 </style>
 </head>
@@ -70,7 +69,7 @@ Whisper of the Heart </h1>
 <div class=story>
 
 <div class=poster>
-<img src="photos\movies/f7.png" alt="همس القلب">
+<img src="photos/movies/f7.png" alt="همس القلب">
 <p><br><br><br></p>
 </div>
 
@@ -105,7 +104,7 @@ Whisper of the Heart </h1>
   </div>
   <div class=youtube>
      <a href="https://www.youtube.com/watch?v=R6X_rhZqnE0&feature=emb_title" target="_blank">
-        <img src="photos\youtube.png" alt="إعلان الفيلم"></a>
+        <img src="photos/youtube.png" alt="إعلان الفيلم"></a>
 </div>
 </div>
 </div>
