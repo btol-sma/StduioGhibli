@@ -220,7 +220,7 @@ background-color: var(--lightColor);
 
 
 
-        <?php include 'footerhome.php' ?> 
+        <?php include 'footer.php' ?> 
 
     </body>
 

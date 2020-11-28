@@ -50,8 +50,8 @@
  }
 
  .navList{
-     position: relative;
-     text-align: center;
+    position: relative; /*هذه اذا ما لها عمل نحذفها*/
+    text-align: center;
     list-style-type: none;
     padding: 15px 250px 0;
 }
@@ -59,10 +59,10 @@
 .navItem{
     font-family: 'tajwal';
     float: right;
-     font-size: 20px;
-     font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
     height: 40px;
-    width:7rem;
+    width:100px;
     line-height: 50px;
     text-align: center;
     transition: 0.3s;
@@ -75,9 +75,6 @@
     transition: 0.3s;
 }
 
-#logo:hover{
-    border-bottom:none;
-}
 
 .navLink{
     text-decoration: none;
@@ -104,8 +101,8 @@
 
 .home:hover
 {
-color: var(--baseColor);
-transition: 0.3s;
+    color: var(--baseColor);
+    transition: 0.3s;
 }
 
 .title{
@@ -120,7 +117,7 @@ transition: 0.3s;
 
 
   .footer-above{
-      background-color: var(--baseColor);
+        background-color: var(--baseColor);
         height: 9cm;
         text-align: center;
 
