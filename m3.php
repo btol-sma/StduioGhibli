@@ -42,7 +42,6 @@
         .youtube img{
           height: 1.6cm;
           width: 2cm;
-          float:center;
         }
 </style>
 </head>
@@ -70,7 +69,7 @@ Princess Mononoke</h1>
 <div class=story>
 
 <div class=poster>
-<img src="photos\movies/f3.png" alt="الأميرة مونونوكي">
+<img src="photos/movies/f3.png" alt="الأميرة مونونوكي">
 <p><br><br><br></p>
 </div>
 
@@ -101,7 +100,7 @@ Princess Mononoke</h1>
   </div>
   <div class=youtube>
      <a href="https://www.youtube.com/watch?v=K53oROH2sx0&feature=emb_title" target="_blank">
-        <img src="photos\youtube.png" alt="إعلان الفيلم">
+        <img src="photos/youtube.png" alt="إعلان الفيلم">
         </a>
 </div>
 </div>
