@@ -42,7 +42,6 @@
         .youtube img{
           height: 1.6cm;
           width: 2cm;
-          float:center;
         }
 </style>
 </head>
@@ -70,7 +69,7 @@ The wind rises </h1>
 <div class=story>
 
 <div class=poster>
-<img src="photos\movies/f18.png" alt="مهب الريح ">
+<img src="photos/movies/f18.png" alt="مهب الريح ">
 <p><br><br><br></p>
 </div>
 
@@ -103,7 +102,7 @@ The wind rises </h1>
   </div>
   <div class=youtube>
      <a href="https://www.youtube.com/watch?v=imtdgdGOB6Q" target="_blank">
-        <img src="photos\youtube.png" alt="إعلان الفيلم"></a>
+        <img src="photos/youtube.png" alt="إعلان الفيلم"></a>
 </div>
 </div>
 </div>
