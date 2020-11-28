@@ -42,7 +42,6 @@
         .youtube img{
           height: 1.6cm;
           width: 2cm;
-          float:center;
         }
 </style>
 </head>
@@ -70,7 +69,7 @@ when marnie was there </h1>
 <div class=story>
 
 <div class=poster>
-<img src="photos\movies/2.jpg" alt="عندما كانت مارني هناك">
+<img src="photos/movies/2.jpg" alt="عندما كانت مارني هناك">
 <p><br><br><br></p>
 </div>
 
@@ -101,7 +100,7 @@ when marnie was there </h1>
   </div>
   <div class=youtube>
      <a href="https://www.youtube.com/watch?v=jjmrxqcQdYg" target="_blank">
-        <img src="photos\youtube.png" alt="إعلان الفيلم"></a>
+        <img src="photos/youtube.png" alt="إعلان الفيلم"></a>
 </div>
 </div>
 </div>
