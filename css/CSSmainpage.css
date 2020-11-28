@@ -45,7 +45,7 @@ body{
 
 .ibox img{vertical-align: middle;
 }
-
+/* start https://www.w3schools.com/howto/howto_js_slideshow.asp */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 2s;
@@ -63,6 +63,7 @@ body{
   from {opacity: .8} 
   to {opacity: 2}
 }
+/*End https://www.w3schools.com/howto/howto_js_slideshow.asp */
 .p2{
    position: absolute;
    top: 65%;

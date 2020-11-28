@@ -120,7 +120,7 @@ border-bottom-style: groove;
 
             margin-top: 2.3cm;
         padding-bottom: 3.2cm;
-        font-size: 20;
+        font-size: 20px;
         font-weight: bolder;
         border-block-color:#557571;
         border-bottom-style: groove;}
@@ -224,6 +224,8 @@ margin-top: 1cm;
         padding-right: 2.2cm;
         margin-bottom: 3cm;
     }
+    /*https://www.w3schools.com/howto/howto_js_slideshow.asp */
+    
     .imageshow {
         width: 18cm;
         height: 9cm;
@@ -294,7 +296,7 @@ margin-top: 1cm;
         animation-duration: 1.5s;
       }
       
-      @-webkit-keyframes fade {
+      @-webkit-keyframes fade { 
         from {opacity: .4}
         to {opacity: 1}
       }
