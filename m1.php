@@ -42,7 +42,7 @@
         .youtube img{
           height: 1.6cm;
           width: 2cm;
-          float:center;
+          
         }
 </style>
 </head>
@@ -70,7 +70,7 @@ My Neighbor Totoro </h1>
 <div class=story>
 
 <div class=poster>
-<img src="photos\movies/f2.png" alt="جاري توتورو">
+<img src="photos/movies/f2.png" alt="جاري توتورو">
 <p><br><br><br></p>
 </div>
 
@@ -101,7 +101,7 @@ My Neighbor Totoro </h1>
   </div>
   <div class=youtube>
      <a href="https://www.youtube.com/watch?v=srW-wajSxog&feature=emb_title" target="_blank">
-        <img alt="إعلان الفيلم" src="photos\youtube.png" >
+        <img alt="إعلان الفيلم" src="photos/youtube.png" >
         </a>
 </div>
 </div>
