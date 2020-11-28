@@ -42,7 +42,6 @@
         .youtube img{
           height: 1.6cm;
           width: 2cm;
-          float:center;
         }
 </style>
 </head>
@@ -70,7 +69,7 @@ Pom poko </h1>
 <div class=story>
 
 <div class=poster>
-<img src="photos\movies/f20.png" alt="حرب الراكون">
+<img src="photos/movies/f20.png" alt="حرب الراكون">
 <p><br><br><br></p>
 </div>
 
@@ -106,7 +105,7 @@ Pom poko </h1>
   </div>
   <div class=youtube>
      <a href="https://www.youtube.com/watch?v=_7cowIHjCD4" target="_blank">
-        <img src="photos\youtube.png" alt="إعلان الفيلم"></a>
+        <img src="photos/youtube.png" alt="إعلان الفيلم"></a>
 </div>
 </div>
 </div>
