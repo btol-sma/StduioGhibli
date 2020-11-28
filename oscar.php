@@ -67,7 +67,7 @@
                       <li>تصدّر فيلم Porco Rosso أعلى إيرادات لعام 1992</li>
                       <li>تصدّر فيلم Pom Poko أعلى إيرادات لعام 1994</li>
                       <li>تصدّر فيلم Howl's Moving Castle أعلى إيرادات لعام 2005</li>
-                      <li>تصدّر فيلم The Wind Rises أعلى إيرادات عام 2013</li>
+                      <li>تصدّر فيلم The Wind Rises أعلى إيرادات لعام 2013</li>
                       <li>تصدّر فيلم The Tale of the Princess Kaguya أعلى إيرادات لعام 2014</li>
                       <li>تصدّر فيلم When Marnie Was There أعلى إيرادات لعام 2015</li>
                     </ul>
