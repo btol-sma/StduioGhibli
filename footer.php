@@ -5,7 +5,7 @@
                 اشترك الآن بالنشرة البريدية مجانًا لتصبح ضمن 
 <?php 
        $conn = mysqli_connect("localhost","root","","emailusers");
-       $query = mysqli_query($conn,"SELECT  MAX(id) FROM useremail  ");
+       $query = mysqli_query($conn,"SELECT  COUNT('email') FROM useremail  ");
 $data = mysqli_fetch_array($query);
 echo $data[0];
         
@@ -29,6 +29,7 @@ echo $data[0];
 
            if(isset($_POST['sub']))
                     {
+          
                      $m= $_POST['mail'];
                      $sql = "INSERT INTO useremail(email) VALUES ('$m')";
                      mysqli_query($conn,$sql);                   

@@ -45,28 +45,30 @@
 
  .navBar{
      background-color: var(--boldColor); 
-     height: 80px; 
+     height: 60px; 
 
  }
 
  .navList{
      text-align: center;
     list-style-type: none;
-    padding: 15px 250px 0;
+    padding: 0;
+    margin: 0;
 }
 
 .navItem{
+    display: inline-block;
     font-family: 'tajwal';
-    float: right;
      font-size: 20px;
      font-weight: bold;
-    height: 50px;
-    width:8rem;
+    width:100px;
     line-height: 50px;
     text-align: center;
     transition: 0.3s;
 }
-
+.navItem img{
+    vertical-align: middle;
+}
 
 .navItem:hover{
     border-bottom: solid var(--lightColor);
@@ -74,9 +76,6 @@
     transition: 0.3s;
 }
 
-#logo:hover{
-    border-bottom:none;
-}
 
 .navLink{
     text-decoration: none;
