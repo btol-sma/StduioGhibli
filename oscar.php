@@ -35,7 +35,7 @@
 
 
             <div class="mainSection">
-                <h3 class="path"><a class="home" href="home.php">الرئيسية</a> > الأوسكار</h3>
+                <h3 class="path"><a class="home" href="home.php">الرئيسية</a> / الأوسكار</h3>
                 <h1 class="title">جائزة الأوسكار</h1>
 
                 <div class="ooo">
