@@ -6,5 +6,4 @@ this website has been developed by :
    ...Shatha Alturki
    
 
- No Group : G7 - 9208
-  under supervisaon  ...Nora Al-bazai
+
